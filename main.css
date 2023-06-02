@@ -1,0 +1,8 @@
+.t1{
+    font-size:clamp(2rem,4vw,10rem);
+    line-height:1;
+}
+.t2{
+    font-size:clamp(5rem,7vw,10rem);
+    line-height:1;
+}
