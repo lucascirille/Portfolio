@@ -5,11 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body class="bg-black">
-    <section class="min-h-screen flex flex-col justify-center align-middle">
+    <header class="min-h-screen relative">
+      <video muted autoplay loop class="absolute top-0 left-0 w-full h-full object-cover">
+        <source src="./src/components/media/Dark.mp4" type="video/mp4">
+      </video>
+      <section class="relative flex flex-col w-1/2 min-h-screen z-10 left-72">
+        <h1 class="text-vh text-red-600 ">Hi, my name is</h1>
+        <h2 class="text-8xl text-white ">Lucas Cirille</h2>
+      </section>
+    </header>
+    <!-- cover -->
+    <div class="absolute w-full h-full top-0 left-0 bg-zinc-900 opacity-50 mix-blend-overlay"></div>
       <div id="root"></div>
-    </section>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
