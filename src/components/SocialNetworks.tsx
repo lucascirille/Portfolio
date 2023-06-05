@@ -1,7 +1,7 @@
-import Github from "./components/icons/Github"
-import Instagram from "./components/icons/Instagram"
-import LinkedIn from "./components/icons/Linkedin"
-import Tweeter from "./components/icons/Tweeter"
+import Github from "./icons/Github"
+import Instagram from "./icons/Instagram"
+import LinkedIn from "./icons/Linkedin"
+import Tweeter from "./icons/Tweeter"
 
 const SocialNetworks = ()=>{
     return(
